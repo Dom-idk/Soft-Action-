@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: rgb(211, 200, 200);
+   
+    line-height: 1.8em;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.783);
+    color: beige;
+    padding: 30px;
+    text-align: right;
+    
+   
+}
+section {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div_1{
+    display: flex;
+    font-size: 30px;
+    margin-right:70%;    
+    justify-content: left;
+}
+.div_2{
+display: flex;
+justify-content:center;
+color: white;
+
+
+
+}
+.div_2 li{
+    color: white;
+}
+header h1{
+    font-size: 2em;
+}
+.case_study{
+    display: flex;
+
+}
+.case_1{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   
+}
+.case_2{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.case_3{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.objectives h2{
+    font-size: 1.5em;
+    color:rgb(3, 3, 3) ;
+    margin-bottom: 25px
+}
+.objectives li{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(0, 0, 0);
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+
+}
